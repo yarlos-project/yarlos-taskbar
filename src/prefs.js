@@ -1,13 +1,12 @@
 import Gdk from 'gi://Gdk';
 import Gtk from 'gi://Gtk';
 
-import {ExtensionPreferences, gettext as _} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
+import { ExtensionPreferences, gettext as _ } from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
-import {AboutPage} from './settings/aboutPage.js';
-import {ActionsPage} from './settings/actionsPage.js';
-import {DonatePage} from './settings/donatePage.js';
-import {GeneralPage} from './settings/generalPage.js';
-import {PanelPage} from './settings/panelPage.js';
+import { AboutPage } from './settings/aboutPage.js';
+import { ActionsPage } from './settings/actionsPage.js';
+import { GeneralPage } from './settings/generalPage.js';
+import { PanelPage } from './settings/panelPage.js';
 
 export default class AzTaskbarPrefs extends ExtensionPreferences {
     fillPreferencesWindow(window) {
@@ -41,9 +40,6 @@ export default class AzTaskbarPrefs extends ExtensionPreferences {
 
         const actionsPage = new ActionsPage(settings);
         window.add(actionsPage);
-
-        const donatePage = new DonatePage(this.metadata);
-        window.add(donatePage);
 
         const aboutPage = new AboutPage(settings, this.metadata, this.path);
         window.add(aboutPage);
