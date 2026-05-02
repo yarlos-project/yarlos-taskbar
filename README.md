@@ -6,6 +6,8 @@
 
 YarlOS Taskbar is a simple taskbar extension for GNOME Shell, designed to provide a more familiar user experience and workflow. This extension places app icons in the panel showing current running apps, and GNOME favorites.
 
+Modification Notice: This package is a downstream-modified build of the upstream azTaskbar extension. The changes may differ from the upstream project. The upstream license and copyright notices remain in effect.
+
 Picture shown above uses [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) to add an application menu to the panel.
 
 ---
