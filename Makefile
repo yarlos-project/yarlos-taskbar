@@ -1,9 +1,9 @@
 .PHONY: all clean extension potfile mergepo install prefs enable disable reset info show zip-file
 
-GETTEXT_DOMAIN = aztaskbar
-NAME = App Icons Taskbar
-SETTINGS_SCHEMA = org.gnome.shell.extensions.aztaskbar
-UUID = aztaskbar@aztaskbar.gitlab.com
+GETTEXT_DOMAIN = yarltaskbar
+NAME = Desktop Taskbar
+SETTINGS_SCHEMA = org.gnome.shell.extensions.yarltaskbar
+UUID = yarltaskbar@yarlos-project.github.com
 
 PACKAGE_FILES = \
 	LICENSE \
