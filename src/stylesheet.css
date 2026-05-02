@@ -1,10 +1,10 @@
-.azTaskbar-Tooltip{
+.azTaskbar-Tooltip {
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 4px 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-.azTaskbar-notification-badge{
+.azTaskbar-notification-badge {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 0, 0, .85);
   padding: 0.1em 0.1em;
@@ -22,23 +22,24 @@
   */
 }
 
-.azTaskbar-BaseIcon{
+.azTaskbar-BaseIcon {
   padding: 3px 8px;
   margin: 2px 0px;
   border: 1px solid transparent;
   spacing: 6px;
   transition-duration: 150ms;
+  border-radius: 0px;
 }
 
-.azTaskbar-favorite{
+.azTaskbar-favorite {
   background-color: rgba(1, 102, 196, 0.493);
 }
 
-.azTaskbar-symbolic-icon{
+.azTaskbar-symbolic-icon {
   -st-icon-style: symbolic;
 }
 
-.azTaskbar-multi-window-indicator{
+.azTaskbar-multi-window-indicator {
   margin: 5px 0px 0px 2px;
   padding: 1px;
   border-radius: 99px;
@@ -53,17 +54,31 @@
   padding: 4px;
 }
 
-.azTaskbar-window-preview-header-box{
+.azTaskbar-window-preview-header-box {
   spacing: 6px;
   padding: 0px;
   margin: 2px 0px 4px 3px;
 }
 
-.azTaskbar-window-preview-close-button{
+.azTaskbar-window-preview-close-button {
   padding: 2px;
   margin: 2px 2px;
 }
 
-.azTaskbar-bottom-panel .popup-menu.panel-menu{
-    margin-bottom: 0;
+.azTaskbar-bottom-panel .popup-menu.panel-menu {
+  margin-bottom: 0;
+}
+
+.azTaskbar-system-dark #panel.azTaskbar-panel,
+.azTaskbar-system-dark .panel.azTaskbar-panel,
+.azTaskbar-system-dark .azTaskbar-panel {
+  background-color: rgba(32, 36, 44, 0.75) !important;
+  background-image: none !important;
+}
+
+.azTaskbar-system-light #panel.azTaskbar-panel,
+.azTaskbar-system-light .panel.azTaskbar-panel,
+.azTaskbar-system-light .azTaskbar-panel {
+  background-color: rgba(245, 246, 247, 0.78) !important;
+  background-image: none !important;
 }
