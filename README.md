@@ -4,7 +4,7 @@
 
 ### Introduction
 
-YarlOS Taskbar is a simple taskbar extension for GNOME Shell, designed to provide a more familiar user experience and workflow. This extension places app icons in the panel showing current running apps, and GNOME favorites.
+Desktop Taskbar is a simple taskbar extension for GNOME Shell, designed to provide a more familiar user experience and workflow. This extension places app icons in the panel showing current running apps, and GNOME favorites.
 
 Modification Notice: This package is a downstream-modified build of the upstream azTaskbar extension. The changes may differ from the upstream project. The upstream license and copyright notices remain in effect.
 
@@ -59,7 +59,7 @@ Before installing, make sure the following tools are available on your system:
 
 ### Credits
 
-YarlOS Taskbar is maintained by the YarlOS Project.
+Desktop Taskbar is maintained by the YarlOS Project.
 
 **Original Credits**
 
@@ -81,7 +81,7 @@ YarlOS Taskbar is maintained by the YarlOS Project.
 
 ### Contributors
 
-**YarlOS Taskbar**
+**Desktop Taskbar**
 
 - Maintained by [yarlos-project](https://github.com/yarlos-project)
 

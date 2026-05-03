@@ -22,7 +22,7 @@ const getGioUnixOutputStream = async () => {
 const GioUnixOutputStream = await getGioUnixOutputStream();
 
 export const AboutPage = GObject.registerClass(
-    class AzTaskbarAboutPage extends Adw.PreferencesPage {
+    class YarlTaskbarAboutPage extends Adw.PreferencesPage {
         _init(settings, metadata, path) {
             super._init({
                 title: _('About'),
@@ -187,11 +187,11 @@ export const AboutPage = GObject.registerClass(
             // -----------------------------------------------------------------------
 
             // Links -----------------------------------------------------------------
-            /* TRANSLATORS: 'PROJECT_NAME' on GitLab*/
-            const gitlabRow = this._createLinkRow(_('%s on GitLab').format(PROJECT_NAME), `${metadata.url}`);
+            /* TRANSLATORS: 'PROJECT_NAME' on GitHub*/
+            const gitlabRow = this._createLinkRow(_('%s on GitHub').format(PROJECT_NAME), `${metadata.url}`);
             infoGroup.add(gitlabRow);
 
-            const reportIssueRow = this._createLinkRow(_('Report an Issue'), `${metadata.url}/-/issues`);
+            const reportIssueRow = this._createLinkRow(_('Report an Issue'), `${metadata.url}/issues`);
             infoGroup.add(reportIssueRow);
             // -----------------------------------------------------------------------
 
