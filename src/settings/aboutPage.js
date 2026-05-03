@@ -32,7 +32,7 @@ export const AboutPage = GObject.registerClass(
 
             const PROJECT_NAME = _('Desktop Taskbar');
             const PROJECT_DESCRIPTION = _('Show running apps and favorites on the taskbar.');
-            const PROJECT_IMAGE = 'yarltaskbar-logo';
+            const PROJECT_IMAGE = 'aztaskbar-logo';
             const SCHEMA_PATH = '/org/gnome/shell/extensions/yarltaskbar/';
             const VERSION = metadata['version-name'] ? metadata['version-name'] : metadata.version.toString();
 
