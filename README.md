@@ -8,7 +8,7 @@ Desktop Taskbar is a simple taskbar extension for GNOME Shell, designed to provi
 
 Modification Notice: This package is a downstream-modified build of the upstream azTaskbar extension. The changes may differ from the upstream project. The upstream license and copyright notices remain in effect.
 
-Picture shown above uses [ArcMenu](https://extensions.gnome.org/extension/3628/arcmenu/) to add an application menu to the panel.
+Picture shown above uses [Start Menu](https://github.com/yarlos-project/yarlos-menu) to add an application menu to the panel.
 
 ---
 
